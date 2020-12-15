@@ -18,5 +18,5 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 ・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
 
 
-動作している様子(YouTube)
+動画(YouTube)
 https://www.youtube.com/watch?v=dlGKATR8eMw
