@@ -8,3 +8,15 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 ・M5Stack用 USBモジュール (G1X Four接続用)
 
 ・M5Stack用 プロトタイプモジュール PROTO-13.2 (外部フットコントローラジャック設置用)
+
+ビルドには以下のライブラリが必要です。
+
+・M5Stack Library　https://github.com/m5stack/M5Stack
+
+・button2 from Lennart Hennigs https://github.com/LennartHennigs/Button2
+
+・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
+
+
+動作している様子(YouTube)
+https://www.youtube.com/watch?v=dlGKATR8eMw
