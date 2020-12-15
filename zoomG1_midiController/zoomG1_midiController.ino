@@ -139,8 +139,8 @@ void SendMIDI(int number)
   bankNum = atoi(numUp) - 1;
   prgNum = atoi(numLow);
   
-	Usb.Task();
-	if( Usb.getUsbTaskState() == USB_STATE_RUNNING ){
+  Usb.Task();
+  if( Usb.getUsbTaskState() == USB_STATE_RUNNING ){
     #ifdef DEBUG_MODE
     Serial.printf("SendMIDI bank:%d program:%d", bankNum, prgNum);
     #endif
