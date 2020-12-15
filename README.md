@@ -20,3 +20,5 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 
 動画(YouTube)
 https://www.youtube.com/watch?v=dlGKATR8eMw
+
+
