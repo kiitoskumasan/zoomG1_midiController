@@ -145,35 +145,35 @@ void SendMIDI(int number)
     Serial.printf("SendMIDI bank:%d program:%d", bankNum, prgNum);
     #endif
 
-		byte Message[3];                   // Construct the midi message (3 bytes)
+    byte Message[3];                   // Construct the midi message (3 bytes)
 
-	  Message[0] = MIDI_CONTROL_CHANGE;
-	  Message[1] = 0x00;
-	  Message[2] = 0x00;    
-	  Midi.SendData(Message);            // Send the message
+    Message[0] = MIDI_CONTROL_CHANGE;
+    Message[1] = 0x00;
+    Message[2] = 0x00;    
+    Midi.SendData(Message);            // Send the message
 
-	  Message[0] = MIDI_CONTROL_CHANGE;
-	  Message[1] = MIDI_BANK_SELECT;
-	  Message[2] = bankNum;              // bank Number set
-	  Midi.SendData(Message);            // Send the message
+    Message[0] = MIDI_CONTROL_CHANGE;
+    Message[1] = MIDI_BANK_SELECT;
+    Message[2] = bankNum;              // bank Number set
+    Midi.SendData(Message);            // Send the message
     
-	  Message[0] = MIDI_PROGRAM_CHANGE;
-	  Message[1] = (byte)prgNum;         // prgNum is the program/patch
-	  Midi.SendData(Message);            // Send the message
+    Message[0] = MIDI_PROGRAM_CHANGE;
+    Message[1] = (byte)prgNum;         // prgNum is the program/patch
+    Midi.SendData(Message);            // Send the message
 
-	  delay(10);
-	  gxParam.bankSelect = (byte)bankNum;
-	  gxParam.patchNumber = (byte)prgNum;
-	  eepParam.setParameterToEEPROM(gxParam);
-	  DisplayNumber(Preset);
+    delay(10);
+    gxParam.bankSelect = (byte)bankNum;
+    gxParam.patchNumber = (byte)prgNum;
+    eepParam.setParameterToEEPROM(gxParam);
+    DisplayNumber(Preset);
 
     //Usb.Init();
     initCtl = false;
-	} else {
+  } else {
     #ifdef DEBUG_MODE
     Serial.printf("NOT USB_STATE_RUNNING\n");
     #endif
-	}
+  }
 }
 
 

@@ -22,3 +22,12 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 https://www.youtube.com/watch?v=dlGKATR8eMw
 
 
+フットスイッチは以下のGPIOに割り当てています。
+M5Stackのピンからスイッチに配線する場合、以下のGPIOから配線して下さい。
+
+・パッチカウントアップ(右ペダル)       GPIO 22
+・パッチカウントダウン(左ペダル)       GPIO 26
+・バンクアップ                         GPIO 16
+・バンクダウン                         GPIO 21
+
+
