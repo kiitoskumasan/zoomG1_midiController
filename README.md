@@ -1,4 +1,4 @@
-# zoomG1_midiController
+# Zoom G1X Four midi foot Controller
 
 ### M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラです。
 
