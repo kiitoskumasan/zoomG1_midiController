@@ -1,3 +1,4 @@
+# zoomG1_midiController
 Midi foot controller for zoom G1X Four that runs on M5Stack Basic.
 
 The following hardware is required.
