@@ -1,7 +1,7 @@
 # zoomG1_midiController
-M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラです。
+## M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラです。
 
-以下のハードウエアが必要です。
+### 以下のハードウエアが必要です。
 
 #### ・M5Stack Basic
 
@@ -9,7 +9,7 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 
 #### ・M5Stack用 プロトタイプモジュール PROTO-13.2 (外部フットコントローラジャック設置用)
 
-ビルドには以下のライブラリが必要です。
+### ビルドには以下のライブラリが必要です。
 
 #### ・M5Stack Library　https://github.com/m5stack/M5Stack
 
@@ -19,9 +19,9 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 
 
 
-フットスイッチは以下のGPIOに割り当てています。
+### フットスイッチは以下のGPIOに割り当てています。
 
-M5Stackのピンからスイッチに配線する場合、以下のGPIOから配線して下さい。
+### M5Stackのピンからスイッチに配線する場合、以下のGPIOから配線して下さい。
 
 #### ・パッチカウントアップ(右ペダル)       GPIO 22
 
@@ -33,5 +33,5 @@ M5Stackのピンからスイッチに配線する場合、以下のGPIOから配
 
 
 
-#### 動作イメージ(YouTube)
+### 動作イメージ(YouTube)
 https://www.youtube.com/watch?v=dlGKATR8eMw
