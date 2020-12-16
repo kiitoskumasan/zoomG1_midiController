@@ -18,10 +18,6 @@ M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラ�
 ・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
 
 
-動画(YouTube)
-https://www.youtube.com/watch?v=dlGKATR8eMw
-
-
 
 フットスイッチは以下のGPIOに割り当てています。
 
@@ -35,3 +31,7 @@ M5Stackのピンからスイッチに配線する場合、以下のGPIOから配
 
 ・バンクダウン                         GPIO 21
 
+
+
+動作イメージ(YouTube)
+https://www.youtube.com/watch?v=dlGKATR8eMw
