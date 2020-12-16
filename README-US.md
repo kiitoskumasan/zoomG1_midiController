@@ -1,4 +1,4 @@
-# zoomG1_midiController
+# Zoom G1X Four midi foot Controller
 
 ### Midi foot controller for zoom G1X Four that runs on M5Stack Basic.
 
