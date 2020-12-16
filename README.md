@@ -20,10 +20,6 @@
 
 #### ・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
 
-
-
-<<<<<<< HEAD
-
 フットスイッチは以下のGPIOに割り当てています。
 =======
 ### フットスイッチは以下のGPIOに割り当てています。
@@ -33,17 +29,9 @@
 #### ・パッチカウントアップ(右ペダル)       GPIO 22
 
 #### ・パッチカウントダウン(左ペダル)       GPIO 26
->>>>>>> 0fe62472c3bfe0b5960a8c77996f97d81a797994
 
 #### ・バンクアップ                         GPIO 16
 
 #### ・バンクダウン                         GPIO 21
 
-
-
-<<<<<<< HEAD
-・バンクダウン                         GPIO 21
-
-=======
 ### 動作イメージ(YouTube) https://www.youtube.com/watch?v=dlGKATR8eMw
->>>>>>> 0fe62472c3bfe0b5960a8c77996f97d81a797994
