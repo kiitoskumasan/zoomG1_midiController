@@ -1,5 +1,7 @@
 # Zoom G1X Four midi foot Controller
 
+#### This page is written in Japanese. Please read README-EN.md for the explanation in English.
+
 ### M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラです。
 
 ### 以下のハードウエアが必要です。
