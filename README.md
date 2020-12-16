@@ -1,37 +1,47 @@
-# zoomG1_midiController
-M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラです。
+# Zoom G1X Four midi foot Controller
 
-以下のハードウエアが必要です。
+### M5Stack Basicで動作する、zoom G1X Four用 Midiフットコントローラです。
 
-・M5Stack Basic
+### 以下のハードウエアが必要です。
 
-・M5Stack用 USBモジュール (G1X Four接続用)
+#### ・M5Stack Basic
 
-・M5Stack用 プロトタイプモジュール PROTO-13.2 (外部フットコントローラジャック設置用)
+#### ・M5Stack用 USBモジュール (G1X Four接続用)
 
-ビルドには以下のライブラリが必要です。
+#### ・M5Stack用 プロトタイプモジュール PROTO-13.2 (外部フットコントローラジャック設置用)
 
-・M5Stack Library　https://github.com/m5stack/M5Stack
+### ビルドには以下のライブラリが必要です。
 
-・button2 from Lennart Hennigs https://github.com/LennartHennigs/Button2
+#### ・M5Stack Library　https://github.com/m5stack/M5Stack
 
-・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
+#### ・button2 from Lennart Hennigs https://github.com/LennartHennigs/Button2
 
-
-動画(YouTube)
-https://www.youtube.com/watch?v=dlGKATR8eMw
+#### ・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
 
 
+
+<<<<<<< HEAD
 
 フットスイッチは以下のGPIOに割り当てています。
+=======
+### フットスイッチは以下のGPIOに割り当てています。
 
-M5Stackのピンからスイッチに配線する場合、以下のGPIOから配線して下さい。
+### M5Stackのピンからスイッチに配線する場合、以下のGPIOから配線して下さい。
 
-・パッチカウントアップ(右ペダル)       GPIO 22
+#### ・パッチカウントアップ(右ペダル)       GPIO 22
 
-・パッチカウントダウン(左ペダル)       GPIO 26
+#### ・パッチカウントダウン(左ペダル)       GPIO 26
+>>>>>>> 0fe62472c3bfe0b5960a8c77996f97d81a797994
 
-・バンクアップ                         GPIO 16
+#### ・バンクアップ                         GPIO 16
 
+#### ・バンクダウン                         GPIO 21
+
+
+
+<<<<<<< HEAD
 ・バンクダウン                         GPIO 21
 
+=======
+### 動作イメージ(YouTube) https://www.youtube.com/watch?v=dlGKATR8eMw
+>>>>>>> 0fe62472c3bfe0b5960a8c77996f97d81a797994

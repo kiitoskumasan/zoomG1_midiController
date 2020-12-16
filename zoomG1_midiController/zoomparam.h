@@ -12,11 +12,11 @@ typedef struct _GX_PARAM {
 } GX_PARAM, *PGX_PARAM;
 
 class EEPROMParam {
-	protected:
-		//MS_PARAM gxParam;
+  protected:
+  //MS_PARAM gxParam;
     char zoomProgramID[MAX_ID_LENGTH + 1];
-	public:
-	  EEPROMParam(const char *gxID, GX_PARAM &gxParam);
+  public:
+    EEPROMParam(const char *gxID, GX_PARAM &gxParam);
     void initializeParameter(GX_PARAM &gxParam);
     void setDefaultParameter(GX_PARAM &gxParam);
     void setParameterToEEPROM(GX_PARAM &gxParam);

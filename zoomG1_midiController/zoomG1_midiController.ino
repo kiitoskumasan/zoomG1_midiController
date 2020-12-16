@@ -181,17 +181,17 @@ void DisplayNumber(int number)
 {
   char buf[3];
 
-	M5.Lcd.setTextFont(7);
-	M5.Lcd.setTextSize(3);
+  M5.Lcd.setTextFont(7);
+  M5.Lcd.setTextSize(3);
   M5.Lcd.setRotation(1);
   M5.Lcd.setTextDatum(1);
   xpos = M5.Lcd.width() / 2;
   //ypos = M5.Lcd.height() / 2;
   ypos = 35;
-	M5.Lcd.setTextPadding(M5.Lcd.width());
-	M5.Lcd.setTextColor(TFT_YELLOW, TFT_BLACK);
-	sprintf(buf, "%02d", number);
-	M5.Lcd.drawCentreString(buf, xpos, ypos, 7);
+  M5.Lcd.setTextPadding(M5.Lcd.width());
+  M5.Lcd.setTextColor(TFT_YELLOW, TFT_BLACK);
+  sprintf(buf, "%02d", number);
+  M5.Lcd.drawCentreString(buf, xpos, ypos, 7);
   
 }
 
