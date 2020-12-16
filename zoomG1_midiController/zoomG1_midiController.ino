@@ -34,7 +34,7 @@ int xpos =  0;
 int ypos = 50;
 
 GX_PARAM gxParam;
-EEPROMParam eepParam = EEPROMParam(PROGRAM_ID, gxParam); 
+EEPROMParam eepParam = EEPROMParam(); 
 
 Button2 buttonUP = Button2(btnUP);
 Button2 buttonRIGHT = Button2(btnRIGHT);
@@ -116,6 +116,15 @@ void button_init()
 
 void button_poll()
 {
+  if (M5.BtnA.wasReleased()){
+    buttonActionLEFT();
+    return;
+  }
+  if (M5.BtnC.wasReleased()){
+    buttonActionRIGHT();
+    return;
+  }
+  
   buttonUP.loop();
   buttonRIGHT.loop();
   buttonLEFT.loop();
@@ -187,7 +196,7 @@ void DisplayNumber(int number)
   M5.Lcd.setTextDatum(1);
   xpos = M5.Lcd.width() / 2;
   //ypos = M5.Lcd.height() / 2;
-  ypos = 35;
+  ypos = 40;
   M5.Lcd.setTextPadding(M5.Lcd.width());
   M5.Lcd.setTextColor(TFT_YELLOW, TFT_BLACK);
   sprintf(buf, "%02d", number);
@@ -238,7 +247,7 @@ void setup()
   M5.begin(true, false, true);
   M5.Power.begin();
 
-  eepParam = EEPROMParam(PROGRAM_ID, gxParam); 
+  eepParam.LoadParameter(PROGRAM_ID, gxParam); 
   convertParamToPreset();
 
   initDisplay();

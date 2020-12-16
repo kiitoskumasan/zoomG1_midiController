@@ -1,17 +1,9 @@
 #include <EEPROM.h>
 #include "zoomparam.h"
 
-EEPROMParam::EEPROMParam(const char *gxID, GX_PARAM &gxParam)
+EEPROMParam::EEPROMParam()
 {
-  strncpy(zoomProgramID, gxID, MAX_ID_LENGTH);
-  zoomProgramID[MAX_ID_LENGTH] = NULL;
-  
-  getParameterFromEEPROM(gxParam);
-  if (strcmp((char *)gxParam.programID, gxID) != 0){
-    setDefaultParameter(gxParam);
-    setParameterToEEPROM(gxParam);
-    getParameterFromEEPROM(gxParam);
-  }
+
 }
 
 bool EEPROMParam::operator==(EEPROMParam &rhs) 
@@ -23,7 +15,20 @@ void EEPROMParam::initializeParameter(GX_PARAM &gxParam)
 {
   gxParam.programID[0] = NULL;
   gxParam.bankSelect = 0;
-  gxParam.patchNumber = 1;
+  gxParam.patchNumber = 0;
+}
+
+void EEPROMParam::LoadParameter(const char *gxID, GX_PARAM &gxParam)
+{
+  strncpy(zoomProgramID, gxID, MAX_ID_LENGTH);
+  zoomProgramID[MAX_ID_LENGTH] = NULL;
+  
+  getParameterFromEEPROM(gxParam);
+  if (strcmp((char *)gxParam.programID, gxID) != 0){
+    setDefaultParameter(gxParam);
+    setParameterToEEPROM(gxParam);
+    getParameterFromEEPROM(gxParam);
+  }  
 }
 
 void EEPROMParam::setDefaultParameter(GX_PARAM &gxParam)

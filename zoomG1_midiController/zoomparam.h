@@ -16,8 +16,9 @@ class EEPROMParam {
   //MS_PARAM gxParam;
     char zoomProgramID[MAX_ID_LENGTH + 1];
   public:
-    EEPROMParam(const char *gxID, GX_PARAM &gxParam);
+    EEPROMParam(void);
     void initializeParameter(GX_PARAM &gxParam);
+    void LoadParameter(const char *gxID, GX_PARAM &gxParam);
     void setDefaultParameter(GX_PARAM &gxParam);
     void setParameterToEEPROM(GX_PARAM &gxParam);
     void getParameterFromEEPROM(GX_PARAM &gxParam);
