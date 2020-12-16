@@ -34,5 +34,4 @@
 
 
 
-### 動作イメージ(YouTube)
-https://www.youtube.com/watch?v=dlGKATR8eMw
+### 動作イメージ(YouTube) https://www.youtube.com/watch?v=dlGKATR8eMw
