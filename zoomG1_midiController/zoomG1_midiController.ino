@@ -187,7 +187,7 @@ void DisplayNumber(int number)
   M5.Lcd.setTextDatum(1);
   xpos = M5.Lcd.width() / 2;
   //ypos = M5.Lcd.height() / 2;
-  ypos = 35;
+  ypos = 40;
   M5.Lcd.setTextPadding(M5.Lcd.width());
   M5.Lcd.setTextColor(TFT_YELLOW, TFT_BLACK);
   sprintf(buf, "%02d", number);

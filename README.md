@@ -20,8 +20,6 @@
 
 #### ・USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
 
-フットスイッチは以下のGPIOに割り当てています。
-=======
 ### フットスイッチは以下のGPIOに割り当てています。
 
 ### M5Stackのピンからスイッチに配線する場合、以下のGPIOから配線して下さい。
