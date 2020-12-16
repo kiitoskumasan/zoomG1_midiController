@@ -1,32 +1,33 @@
 # zoomG1_midiController
-Midi foot controller for zoom G1X Four that runs on M5Stack Basic.
 
-The following hardware is required.
+### Midi foot controller for zoom G1X Four that runs on M5Stack Basic.
 
-・ M5Stack Basic
+### The following hardware is required.
 
-・ USB module for M5Stack (for G1X Four connection)
+#### ・ M5Stack Basic
 
-・ Prototype module PROTO-13.2 for M5Stack (for installing an external foot controller jack)
+#### ・ USB module for M5Stack (for G1X Four connection)
 
-The following libraries are required to build.
+#### ・ Prototype module PROTO-13.2 for M5Stack (for installing an external foot controller jack)
 
-・ M5Stack Library https://github.com/m5stack/M5Stack
+### The following libraries are required to build.
 
-・ Button2 from Lennart Hennigs https://github.com/LennartHennigs/Button2
+#### ・ M5Stack Library https://github.com/m5stack/M5Stack
 
-・ USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
+#### ・ Button2 from Lennart Hennigs https://github.com/LennartHennigs/Button2
 
-Footswitches are assigned to the following GPIOs.
+#### ・ USB Host Library Rev. 2.0 https://github.com/felis/USB_Host_Shield_2.0
 
-When wiring from the pin of M5Stack to the switch, please wire from the following GPIO.
+### Footswitches are assigned to the following GPIOs.
 
-・ Patch count up (right pedal) GPIO 22
+### When wiring from the pin of M5Stack to the switch, please wire from the following GPIO.
 
-・ Patch countdown (left pedal) GPIO 26
+#### ・ Patch count up (right pedal) GPIO 22
 
-・ Bank-up GPIO 16
+#### ・ Patch countdown (left pedal) GPIO 26
 
-・ Bankdown GPIO 21
+#### ・ Bank-up GPIO 16
 
-Operation image (YouTube) https://www.youtube.com/watch?v=dlGKATR8eMw
+#### ・ Bankdown GPIO 21
+
+### Operation image (YouTube) https://www.youtube.com/watch?v=dlGKATR8eMw
